@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xtra</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-gray-100 font-montserrat">
+    <!-- Top section with logo and search -->
+    <nav class="flex items-center justify-between w-full px-10 py-6 bg-gray-800 shadow-md">
+        <div class="flex-none">
+            <div class="flex items-center">
+                <h1 class="font-sigmar text-[100px] font-bold text-purple-500">
+                    Xtra
+                </h1>
+                <p class="font-dancing text-gray-300 text-2xl ml-4 mt-8">Gör dig själv en tjänst</p>
+            </div>
+        </div>
+        <div class="flex-none">
+            <div class="relative flex items-center">
+                <input 
+                    type="text" 
+                    placeholder="Search..." 
+                    class="w-72 px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-gray-100 placeholder-gray-400"
+                >
+                <button class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-purple-500">
+                    🔍
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navigation bar -->
+    <div class="bg-gray-800 shadow-md border-t border-gray-700">
+        <ul class="flex justify-center space-x-12 py-4 text-lg font-medium">
+            <li><a href="#" class="text-gray-300 hover:text-purple-500 transition-colors duration-200">Uppdrag</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-purple-500 transition-colors duration-200">Arbetare</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-purple-500 transition-colors duration-200">tillgängliga proffesioner</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-purple-500 transition-colors duration-200">Om oss</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-purple-500 transition-colors duration-200">Kontakt</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-purple-500 transition-colors duration-200">FAQ</a></li>
+        </ul>
+    </div>
+    <div class="bg-gradient-to-b from-gray-800 to-gray-900 py-20">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-2xl text-gray-300 max-w-3xl mx-auto">Förenklar kontakten mellan dig och hantverkare</p>
+        </div>
+    </div>
+    <main class="container mx-auto px-6 py-12">
+        <section class="max-w-4xl mx-auto backdrop-blur-sm bg-gray-800/50 rounded-xl p-8 shadow-xl">
+
+            <h2 class="text-4xl font-bold mb-6">
+                <span class="text-gray-300">Välkommen till</span> 
+                <span class="text-purple-500">Xtra</span> 
+                <span class="text-gray-300">– Enklare Hjälp för Hemmet</span>
+            </h2>
+            
+            <p class="text-lg leading-relaxed text-gray-300">
+                Har du någonsin behövt hjälp med 
+                <span class="text-purple-400 font-medium">små projekt i hemmet</span> 
+                men fastnat i 
+                <span class="text-purple-400 font-medium">långa offertprocesser och höga priser</span>? 
+                På 
+                <span class="text-purple-400 font-medium">Xtra</span> 
+                gör vi det enkelt för dig att få hjälp med hushållsnära tjänster utan krångel.
+            </p>
+            <!-- Add this CSS to sections -->
+        </section>
+        <section class="max-w-4xl mx-auto backdrop-blur-sm bg-gray-800/50 rounded-xl p-8 shadow-xl">
+
+            <h2 class="text-3xl font-bold mb-8 text-gray-300">
+                Hur Fungerar Det?
+            </h2>
+            
+            <div class="space-y-6">
+                <!-- Step 1 -->
+                <div class="flex items-start space-x-4">
+                    <span class="text-purple-500 text-xl">✅</span>
+                    <div>
+                        <span class="text-purple-400 font-medium">Du lägger upp ett uppdrag</span>
+                        <span class="text-gray-300"> – Beskriv vad du behöver hjälp med, t.ex. byta en blandare, måla om en vägg eller fixa något som kan lösas på en kväll eller helg.</span>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="flex items-start space-x-4">
+                    <span class="text-purple-500 text-xl">✅</span>
+                    <div>
+                        <span class="text-gray-300">Hantverkare skickar förslag – Yrkespersoner och erfarna hantverkare kan </span>
+                        <span class="text-purple-400 font-medium">visa intresse</span>
+                        <span class="text-gray-300"> för uppdraget och lämna ett förslag på </span>
+                        <span class="text-purple-400 font-medium">tid, kostnad och när arbetet kan utföras</span>
+                        <span class="text-gray-300">.</span>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="flex items-start space-x-4">
+                    <span class="text-purple-500 text-xl">✅</span>
+                    <div class="text-gray-300">
+                        <span class="text-purple-400 font-medium">Ni kommer överens – och jobbet blir gjort</span>
+                        <span> – När du och hantverkaren är överens, bekräftas uppdraget och arbetet genomförs.</span>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="flex items-start space-x-4">
+                    <span class="text-purple-500 text-xl">✅</span>
+                    <div>
+                        <span class="text-purple-400 font-medium">Xtra tar en liten avgift</span>
+                        <span class="text-gray-300"> – Vi tar en </span>
+                        <span class="text-purple-400 font-medium">10% finders fee</span>
+                        <span class="text-gray-300"> på arbetskostnaden – inga dolda avgifter, inga långa avtal.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-4xl mx-auto backdrop-blur-sm bg-gray-800/50 rounded-xl p-8 shadow-xl">
+
+            <h2 class="text-3xl font-bold mb-8 text-gray-300">
+                Varför ska DU välja Xtra?
+            </h2>
+            
+            <div class="space-y-6">
+                <!-- Benefit 1 -->
+                <div class="flex items-start space-x-4">
+                    <span class="text-purple-400 text-xl">✔</span>
+                    <div>
+                        <span class="text-purple-400 font-medium">Snabbt och smidigt</span>
+                        <span class="text-gray-300"> – Inga långa offertprocesser, du får direktkontakt med de som kan göra jobbet.</span>
+                    </div>
+                </div>
+        
+                <!-- Benefit 2 -->
+                <div class="flex items-start space-x-4">
+                    <span class="text-purple-400 text-xl">✔</span>
+                    <div>
+                        <span class="text-purple-400 font-medium">Transparent prissättning</span>
+                        <span class="text-gray-300"> – Du ser hantverkarens prisförslag innan du bestämmer dig.</span>
+                    </div>
+                </div>
+        
+                <!-- Benefit 3 -->
+                <div class="flex items-start space-x-4">
+                    <span class="text-purple-400 text-xl">✔</span>
+                    <div>
+                        <span class="text-purple-400 font-medium">Flexibel hjälp när du behöver det</span>
+                        <span class="text-gray-300"> – Perfekt för mindre uppdrag som kan lösas på en kväll eller helg.</span>
+                    </div>
+                </div>
+        
+                <!-- Benefit 4 -->
+                <div class="flex items-start space-x-4">
+                    <span class="text-purple-400 text-xl">✔</span>
+                    <div>
+                        <span class="text-purple-400 font-medium">Få rätt person för jobbet</span>
+                        <span class="text-gray-300"> – Endast personer som faktiskt arbetar med tjänsten kan visa intresse för ditt uppdrag.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-4xl mx-auto backdrop-blur-sm bg-gray-800/50 rounded-xl p-8 shadow-xl">
+
+            <h2 class="text-3xl font-bold mb-8 text-gray-300">
+                Vad Kan Du Få Hjälp Med?
+            </h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center space-x-3">
+                    <span class="text-2xl">🔨</span>
+                    <span class="text-gray-300">Små snickeriarbeten</span>
+                </div>
+        
+                <!-- Service 2 -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center space-x-3">
+                    <span class="text-2xl">🎨</span>
+                    <span class="text-gray-300">Målning & tapetsering</span>
+                </div>
+        
+                <!-- Service 3 -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center space-x-3">
+                    <span class="text-2xl">🚿</span>
+                    <span class="text-gray-300">Byte av blandare eller andra VVS-arbeten</span>
+                </div>
+        
+                <!-- Service 4 -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center space-x-3">
+                    <span class="text-2xl">💡</span>
+                    <span class="text-gray-300">Elinstallationer (av behöriga elektriker)</span>
+                </div>
+        
+                <!-- Service 5 -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center space-x-3">
+                    <span class="text-2xl">📦</span>
+                    <span class="text-gray-300">Montering & reparationer</span>
+                </div>
+        
+                <!-- More services -->
+                <div class="bg-gray-800 p-4 rounded-lg flex items-center space-x-3">
+                    <span class="text-gray-300">… och mycket mer!</span>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

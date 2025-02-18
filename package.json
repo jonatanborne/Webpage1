@@ -1,0 +1,21 @@
+{
+  "name": "webbprojekt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-cli": "^0.1.2"
+  },
+  "dependencies": {
+    "webbprojekt": "file:"
+  }
+}
